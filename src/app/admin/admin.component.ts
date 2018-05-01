@@ -1,4 +1,5 @@
 import { Component, OnInit } from '@angular/core';
+import { DummyDataService } from '../dummy-data.service';
 
 @Component({
   selector: 'app-admin',
@@ -7,8 +8,8 @@ import { Component, OnInit } from '@angular/core';
 })
 export class AdminComponent implements OnInit {
 
-  constructor() { }
-
+  constructor(private _service: DummyDataService) { }
+  
   ngOnInit() {
   }
 
