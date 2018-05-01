@@ -5,7 +5,7 @@ import { TemplatesComponent } from './templates/templates.component';
 import { ClausesComponent } from './clauses/clauses.component';
 
 const routes: Routes = [
-  { path: '', redirectTo: '/dashboard', pathMatch: 'full' },
+  { path: '', redirectTo: '/templates', pathMatch: 'full' },
    { path: 'admin', component: AdminComponent },
    { path: 'templates', component: TemplatesComponent },
    { path: 'clauses', component: ClausesComponent },
