@@ -1,13 +1,15 @@
 <!--The content below is only a placeholder and can be replaced.-->
 <div class="wrapper">
-<nav class="header">
+  <nav class="header">
     <a routerLink="/admin" routerLinkActive="active">Admin Area</a>
     <a routerLink="/templates" routerLinkActive="active">Templates</a>
     <a routerLink="/clauses" routerLinkActive="active">Clauses</a>
-</nav>
-<div class='main'>
-  <router-outlet></router-outlet>
+  </nav>
+  <div class='main'>
+    <router-outlet></router-outlet>
 
-</div>
-<div class='footer'>Footer</div>
+  </div>
+  <div class='footer'>
+    <app-footer-bar></app-footer-bar>
+  </div>
 </div>

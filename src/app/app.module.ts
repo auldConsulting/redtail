@@ -7,6 +7,7 @@ import { AppComponent } from './app.component';
 import { AdminComponent } from './admin/admin.component';
 import { TemplatesComponent } from './templates/templates.component';
 import { ClausesComponent } from './clauses/clauses.component';
+import { FooterBarComponent } from './footer-bar/footer-bar.component';
 
 
 @NgModule({
@@ -14,7 +15,8 @@ import { ClausesComponent } from './clauses/clauses.component';
     AppComponent,
     AdminComponent,
     TemplatesComponent,
-    ClausesComponent
+    ClausesComponent,
+    FooterBarComponent
   ],
   imports: [
     BrowserModule,
