@@ -1,13 +1,16 @@
-<div> 
-  <p>
-    admin works!
-  </p>
- 
-<ul>
-  <li *ngFor="let name of _service.names">
-    <span >
-    {{name}}
-    </span>
-  </li>
-</ul>
+<div class="admin_wrapper">
+  <div class="admin_header">
+    <p>
+     css subgrid in action. we dont need to have new names in the admin.component.css as it's component specific.
+    </p>
+  </div>
+  <div  class="admin_main">
+    <ul>
+      <li *ngFor="let name of _service.names">
+        <span>
+          {{name}}
+        </span>
+      </li>
+    </ul>
+  </div>
 </div>
